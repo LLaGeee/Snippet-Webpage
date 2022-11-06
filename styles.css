@@ -1,0 +1,66 @@
+body{
+    background: url(Assets/Background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+    color: rgb(87, 87, 87);
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 3rem 0 3rem;
+}
+
+.top-left-side-bar{
+    margin-left: 2rem;
+}
+
+.top-right-side-bar{
+    margin-right: 2rem;
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+
+.sign-up-btn{
+    background-color: black;
+    padding: 1rem;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.get-started-btn{
+    color: white;
+}
+
+.main-container{
+    text-align: center;
+    /*margin: 3rem;*/
+    margin-bottom: 3rem;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.img{
+    width: 45%;
+    /*height: auto;*/
+}
+
+.bottom-container{
+    background-color: white;
+    height: auto;
+    margin: 0 -1rem;
+    padding: 5rem;
+}
+
+.bottom-flex{
+    display: flex;
+}
