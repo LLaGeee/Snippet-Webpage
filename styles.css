@@ -10,6 +10,11 @@ p{
     color: rgb(87, 87, 87);
 }
 
+.uniform-margin{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
 .top-bar{
     display: flex;
     justify-content: space-between;
@@ -49,7 +54,7 @@ p{
     text-align: center;
 }
 
-.img{
+#img-top{
     width: 45%;
     /*height: auto;*/
 }
@@ -63,4 +68,24 @@ p{
 
 .bottom-flex{
     display: flex;
+    justify-content: space-between;
+}
+
+.bottom-main{
+    width: 50%;
+}
+
+#img-bottom{
+    height: 23rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 1rem;
 }
