@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 body{
     background: url(Assets/Background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
@@ -32,12 +39,22 @@ p{
     align-items: center;
 }
 
+.top-right-side-bar svg{
+    cursor: pointer;
+}
+
 .sign-up-btn{
     background-color: black;
     padding: 1rem;
     color: gray;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(39, 39, 39);
 }
 
 .get-started-btn{
@@ -56,13 +73,14 @@ p{
 
 #img-top{
     width: 45%;
+    margin-bottom: -.2rem;
     /*height: auto;*/
 }
 
 .bottom-container{
     background-color: white;
     height: auto;
-    margin: 0 -1rem;
+    margin: 0 -1rem -1rem -1rem;
     padding: 5rem;
 }
 
